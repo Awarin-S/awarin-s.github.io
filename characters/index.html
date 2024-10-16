@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awarin</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="tb-bg">
+            <div class="logo">
+                <span class="logo-text">Awarin</span>
+            </div>
+            <div class="menu-btn" onclick="toggleMenu()">
+                <span class="menu-md">menu</span>
+            </div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="">
+                <div class="menu-items">
+                    <img class="menu-items-img" src="../data/characters.webp">
+                    <span>Персонажи</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="menu-items">
+                    <img class="menu-items-img" src="../data/weapons.webp">
+                    <span>Оружия</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="menu-items">
+                    <img class="menu-items-img" src="../data/artifacts.webp">
+                    <span>Артефакты</span>
+                </div>
+            </a>
+        </div>
+    </header>
+    <div class="contents">
+        <div class="filters">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Search by name" oninput="filterCharacters()">
+            
+            <label for="element">Element:</label>
+            <select id="element" onchange="filterCharacters()">
+                <option value="">All</option>
+                <option value="Geo">Geo</option>
+                <option value="Dendro">Dendro</option>
+                <option value="Cryo">Cryo</option>
+                <option value="Pyro">Pyro</option>
+                <option value="Hydro">Hydro</option>
+                <option value="Electro">Electro</option>
+                <option value="Anemo">Anemo</option>
+            </select>
+    
+            <label for="rarity">Rarity:</label>
+            <select id="rarity" onchange="filterCharacters()">
+                <option value="">All</option>
+                <option value="5">5 Star</option>
+                <option value="4">4 Star</option>
+            </select>
+    
+            <label for="weapon">Weapon:</label>
+            <select id="weapon" onchange="filterCharacters()">
+                <option value="">All</option>
+                <option value="Sword">Sword</option>
+                <option value="Bow">Bow</option>
+                <option value="Claymore">Claymore</option>
+                <option value="Polearm">Polearm</option>
+                <option value="Catalyst">Catalyst</option>
+            </select>
+        </div>
+        <div class="character-list" id="character-list">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

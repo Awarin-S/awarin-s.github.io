@@ -1,0 +1,109 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Genshin Font';
+    src: url(data/genshin-impact.woff2) format("woff2"),
+        url(data/genshin-impact.woff) format("woff"),
+        url(data/genshin-impact.ttf) format("truetype");
+}
+
+a, span {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+.genshin-text {
+    font-family: "Genshin Font", Arial;
+    white-space: pre-line;
+}
+
+:root {
+    --text-color: #f2f2f2;
+    --tb-color: #2e8b57;
+    --bg-color: #222222;
+}
+
+/*Заголовок*/
+.tb-bg {
+    background: var(--tb-color);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo-text {
+    font-family: 'Ubuntu';
+    font-size: 34.5px;
+    margin-left: 15px;
+}
+
+.menu-md {
+    font-family: 'Material Icons';
+    display: none;
+    font-size: 34.5px;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-items-img {
+    width: 45px;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2e8b57;
+    align-items: center;
+    padding: 2px 15px;
+    border-radius: 8px;
+}
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 768px) {
+    .menu-md {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.open {
+        display: flex;
+    }
+}
