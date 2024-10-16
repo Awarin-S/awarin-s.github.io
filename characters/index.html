@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="menu" id="menu">
-            <a href="">
+            <a href="../characters/index.html">
                 <div class="menu-items">
                     <img class="menu-items-img" src="../data/characters.webp">
                     <span>Персонажи</span>
@@ -39,40 +39,44 @@
     </header>
     <div class="contents">
         <div class="filters">
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Search by name" oninput="filterCharacters()">
-            
-            <label for="element">Element:</label>
-            <select id="element" onchange="filterCharacters()">
-                <option value="">All</option>
-                <option value="Geo">Geo</option>
-                <option value="Dendro">Dendro</option>
-                <option value="Cryo">Cryo</option>
-                <option value="Pyro">Pyro</option>
-                <option value="Hydro">Hydro</option>
-                <option value="Electro">Electro</option>
-                <option value="Anemo">Anemo</option>
-            </select>
-    
-            <label for="rarity">Rarity:</label>
-            <select id="rarity" onchange="filterCharacters()">
-                <option value="">All</option>
-                <option value="5">5 Star</option>
-                <option value="4">4 Star</option>
-            </select>
-    
-            <label for="weapon">Weapon:</label>
-            <select id="weapon" onchange="filterCharacters()">
-                <option value="">All</option>
-                <option value="Sword">Sword</option>
-                <option value="Bow">Bow</option>
-                <option value="Claymore">Claymore</option>
-                <option value="Polearm">Polearm</option>
-                <option value="Catalyst">Catalyst</option>
-            </select>
+            <div class="f_name">
+                <input type="text" id="name" placeholder="Поиск по имени" oninput="filterCharacters()">
+            </div>
+            <div class="f_element">
+                <label for="element">Элемент:</label>
+                <select id="element" onchange="filterCharacters()">
+                    <option value="">Все</option>
+                    <option value="Geo">Гео</option>
+                    <option value="Dendro">Дендро</option>
+                    <option value="Cryo">Крио</option>
+                    <option value="Pyro">Пиро</option>
+                    <option value="Hydro">Гидро</option>
+                    <option value="Electro">Электро</option>
+                    <option value="Anemo">Анемо</option>
+                </select>
+            </div>
+            <div class="f_rarity">
+                <label for="rarity">Редкость:</label>
+                <select id="rarity" onchange="filterCharacters()">
+                    <option value="">Все</option>
+                    <option value="5">5 звезд</option>
+                    <option value="4">4 звезд</option>
+                </select>
+            </div>
+            <div class="f_weapon">
+                <label for="weapon">Тип оружия:</label>
+                <select id="weapon" onchange="filterCharacters()">
+                    <option value="">Все</option>
+                    <option value="Sword">Однорчное</option>
+                    <option value="Bow">Лук</option>
+                    <option value="Claymore">Двуручное</option>
+                    <option value="Polearm">Древковое</option>
+                    <option value="Catalyst">Катализатор</option>
+                </select>
+            </div>
         </div>
         <div class="character-list" id="character-list">
-
+            <!--Автозаполнение-->
         </div>
     </div>
     <script src="script.js"></script>

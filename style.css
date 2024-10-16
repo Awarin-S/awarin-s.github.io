@@ -27,9 +27,10 @@
         url(data/genshin-impact.ttf) format("truetype");
 }
 
-a, span {
+a, span, label {
     color: var(--text-color);
     text-decoration: none;
+    font-family: 'Ubuntu'
 }
 
 body {
@@ -72,12 +73,35 @@ body {
     margin-right: 5px;
 }
 
+.menu-md-v2 {
+    font-family: 'Material Icons';
+    display: block;
+    font-size: 34.5px;
+    height: 100%;
+    margin-right: 5px;
+}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
     justify-content: center;
     gap: 10px;
+}
+
+.menu-v2 {
+    display: none;
+    width: 100%;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    background: aliceblue;
+    gap: 10px;
+}
+
+.menu-v2.open {
+    display: flex;
 }
 
 .menu-items-img {
@@ -92,6 +116,101 @@ body {
     padding: 2px 15px;
     border-radius: 8px;
 }
+/*END Заголовок*/
+
+/*Страница персонажей*/
+
+.filters {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.f_name {
+    width: 100%;
+    text-align: center;
+}
+
+#name {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#element, #rarity, #weapon {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.character {
+    width: 270px;
+}
+
+.namecard {
+    width: 270px;
+    height: 128px;
+    position: absolute;
+    border-radius: 8px 8px 0px 0px;
+    z-index: -1;
+}
+
+.cr_icon {
+    width: 128px;
+}
+
+.cr_name {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.rarity {
+    text-align: center;
+}
+
+.star {
+    width: 25px;
+}
+
+.ca {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.cc {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: end;
+    justify-items: center;
+    align-items: center;
+    margin-right: 9px;
+}
+
+.ccd {
+    background: #353535;
+    padding: 5px 0px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.cr_element, .cr_weapon {
+    width: 40px;
+    background: #24242482;
+    padding: 3px;
+    border-radius: 10px;
+}
+/*END Страница персонажей*/
 
 /* Стили для мобильных устройств */
 @media only screen and (max-width: 768px) {

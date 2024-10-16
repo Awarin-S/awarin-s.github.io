@@ -8,10 +8,7 @@
           "name_ru": "Альбедо",
           "element": "Geo",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Albedo/UI_AvatarIcon_Albedo.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Albedo/UI_Gacha_AvatarImg_Albedo.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Albedo/UI_NameCardPic_Albedo_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "62",
@@ -20,10 +17,7 @@
           "name_ru": "Аль-Хайтам",
           "element": "Dendro",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Alhatham/UI_AvatarIcon_Alhatham.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Alhatham/UI_Gacha_AvatarImg_Alhatham.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Alhatham/UI_NameCardPic_Alhatham_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "37",
@@ -32,10 +26,7 @@
           "name_ru": "Элой",
           "element": "Cryo",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Aloy/UI_AvatarIcon_Aloy.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Aloy/UI_Gacha_AvatarImg_Aloy.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Aloy/UI_NameCardPic_Aloy_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "1",
@@ -44,10 +35,7 @@
           "name_ru": "Эмбер",
           "element": "Pyro",
           "weapon": "Bow",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ambor/UI_AvatarIcon_Ambor.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ambor/UI_Gacha_AvatarImg_Ambor.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ambor/UI_NameCardPic_Ambor_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "80",
@@ -56,10 +44,7 @@
           "name_ru": "Арлекино",
           "element": "Pyro",
           "weapon": "Polearm",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Arlecchino/UI_AvatarIcon_Arlecchino.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Arlecchino/UI_Gacha_AvatarImg_Arlecchino.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Arlecchino/UI_NameCardPic_Arlecchino_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "34",
@@ -68,10 +53,7 @@
           "name_ru": "Аяка",
           "element": "Cryo",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ayaka/UI_AvatarIcon_Ayaka.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ayaka/UI_Gacha_AvatarImg_Ayaka.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ayaka/UI_NameCardPic_Ayaka_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "47",
@@ -80,10 +62,7 @@
           "name_ru": "Аято",
           "element": "Hydro",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ayato/UI_AvatarIcon_Ayato.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ayato/UI_Gacha_AvatarImg_Ayato.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ayato/UI_NameCardPic_Ayato_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "66",
@@ -92,10 +71,7 @@
           "name_ru": "Бай Чжу",
           "element": "Dendro",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Baizhuer/UI_AvatarIcon_Baizhuer.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Baizhuer/UI_Gacha_AvatarImg_Baizhuer.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Baizhuer/UI_NameCardPic_Baizhuer_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "4",
@@ -104,10 +80,7 @@
           "name_ru": "Барбара",
           "element": "Hydro",
           "weapon": "Catalyst",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Barbara/UI_AvatarIcon_Barbara.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Barbara/UI_Gacha_AvatarImg_Barbara.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Barbara/UI_NameCardPic_Barbara_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "7",
@@ -116,10 +89,7 @@
           "name_ru": "Бэй Доу",
           "element": "Electro",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Beidou/UI_AvatarIcon_Beidou.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Beidou/UI_Gacha_AvatarImg_Beidou.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Beidou/UI_NameCardPic_Beidou_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "11",
@@ -128,10 +98,7 @@
           "name_ru": "Беннет",
           "element": "Pyro",
           "weapon": "Sword",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Bennett/UI_AvatarIcon_Bennett.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Bennett/UI_Gacha_AvatarImg_Bennett.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Bennett/UI_NameCardPic_Bennett_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "54",
@@ -140,10 +107,7 @@
           "name_ru": "Кандакия",
           "element": "Hydro",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Candace/UI_AvatarIcon_Candace.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Candace/UI_Gacha_AvatarImg_Candace.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Candace/UI_NameCardPic_Candace_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "73",
@@ -152,10 +116,7 @@
           "name_ru": "Шарлотта",
           "element": "Cryo",
           "weapon": "Catalyst",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Charlotte/UI_AvatarIcon_Charlotte.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Charlotte/UI_Gacha_AvatarImg_Charlotte.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Charlotte/UI_NameCardPic_Charlotte_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "76",
@@ -164,10 +125,7 @@
           "name_ru": "Шеврёз",
           "element": "Pyro",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chevreuse/UI_AvatarIcon_Chevreuse.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chevreuse/UI_Gacha_AvatarImg_Chevreuse.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chevreuse/UI_NameCardPic_Chevreuse_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "79",
@@ -176,10 +134,7 @@
           "name_ru": "Тиори",
           "element": "Geo",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chiori/UI_AvatarIcon_Chiori.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chiori/UI_Gacha_AvatarImg_Chiori.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chiori/UI_NameCardPic_Chiori_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "13",
@@ -188,10 +143,7 @@
           "name_ru": "Чун Юнь",
           "element": "Cryo",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chongyun/UI_AvatarIcon_Chongyun.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chongyun/UI_Gacha_AvatarImg_Chongyun.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Chongyun/UI_NameCardPic_Chongyun_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "82",
@@ -200,10 +152,7 @@
           "name_ru": "Клоринда",
           "element": "Electro",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Clorinde/UI_AvatarIcon_Clorinde.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Clorinde/UI_Gacha_AvatarImg_Clorinde.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Clorinde/UI_NameCardPic_Clorinde_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "51",
@@ -212,10 +161,7 @@
           "name_ru": "Коллеи",
           "element": "Dendro",
           "weapon": "Bow",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Collei/UI_AvatarIcon_Collei.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Collei/UI_Gacha_AvatarImg_Collei.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Collei/UI_NameCardPic_Collei_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "55",
@@ -224,10 +170,7 @@
           "name_ru": "Сайно",
           "element": "Electro",
           "weapon": "Polearm",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Cyno/UI_AvatarIcon_Cyno.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Cyno/UI_Gacha_AvatarImg_Cyno.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Cyno/UI_NameCardPic_Cyno_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "63",
@@ -236,10 +179,7 @@
           "name_ru": "Дэхья",
           "element": "Pyro",
           "weapon": "Claymore",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Dehya/UI_AvatarIcon_Dehya.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Dehya/UI_Gacha_AvatarImg_Dehya.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Dehya/UI_NameCardPic_Dehya_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "16",
@@ -248,10 +188,7 @@
           "name_ru": "Дилюк",
           "element": "Pyro",
           "weapon": "Claymore",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Diluc/UI_AvatarIcon_Diluc.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Diluc/UI_Gacha_AvatarImg_Diluc.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Diluc/UI_NameCardPic_Diluc_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "22",
@@ -260,10 +197,7 @@
           "name_ru": "Диона",
           "element": "Cryo",
           "weapon": "Bow",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Diona/UI_AvatarIcon_Diona.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Diona/UI_Gacha_AvatarImg_Diona.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Diona/UI_NameCardPic_Diona_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "53",
@@ -272,10 +206,7 @@
           "name_ru": "Дори",
           "element": "Electro",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Dori/UI_AvatarIcon_Dori.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Dori/UI_Gacha_AvatarImg_Dori.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Dori/UI_NameCardPic_Dori_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "84",
@@ -284,10 +215,7 @@
           "name_ru": "Эмилия",
           "element": "Dendro",
           "weapon": "Polearm",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Emilie/UI_AvatarIcon_Emilie.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Emilie/UI_Gacha_AvatarImg_Emilie.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Emilie/UI_NameCardPic_Emilie_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "32",
@@ -296,10 +224,7 @@
           "name_ru": "Эола",
           "element": "Cryo",
           "weapon": "Claymore",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Eula/UI_AvatarIcon_Eula.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Eula/UI_Gacha_AvatarImg_Eula.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Eula/UI_NameCardPic_Eula_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "59",
@@ -308,10 +233,7 @@
           "name_ru": "Фарузан",
           "element": "Anemo",
           "weapon": "Bow",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Faruzan/UI_AvatarIcon_Faruzan.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Faruzan/UI_Gacha_AvatarImg_Faruzan.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Faruzan/UI_NameCardPic_Faruzan_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "31",
@@ -320,10 +242,7 @@
           "name_ru": "Янь Фэй",
           "element": "Pyro",
           "weapon": "Catalyst",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Feiyan/UI_AvatarIcon_Feiyan.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Feiyan/UI_Gacha_AvatarImg_Feiyan.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Feiyan/UI_NameCardPic_Feiyan_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "10",
@@ -332,10 +251,7 @@
           "name_ru": "Фишль",
           "element": "Electro",
           "weapon": "Bow",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Fischl/UI_AvatarIcon_Fischl.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Fischl/UI_Gacha_AvatarImg_Fischl.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Fischl/UI_NameCardPic_Fischl_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "70",
@@ -344,10 +260,7 @@
           "name_ru": "Фремине",
           "element": "Cryo",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Freminet/UI_AvatarIcon_Freminet.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Freminet/UI_Gacha_AvatarImg_Freminet.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Freminet/UI_NameCardPic_Freminet_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "74",
@@ -356,10 +269,7 @@
           "name_ru": "Фурина",
           "element": "Hydro",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Furina/UI_AvatarIcon_Furina.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Furina/UI_Gacha_AvatarImg_Furina.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Furina/UI_NameCardPic_Furina_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "77",
@@ -368,10 +278,7 @@
           "name_ru": "Ка Мин",
           "element": "Pyro",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Gaming/UI_AvatarIcon_Gaming.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Gaming/UI_Gacha_AvatarImg_Gaming.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Gaming/UI_NameCardPic_Gaming_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "27",
@@ -380,10 +287,7 @@
           "name_ru": "Гань Юй",
           "element": "Cryo",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ganyu/UI_AvatarIcon_Ganyu.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ganyu/UI_Gacha_AvatarImg_Ganyu.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ganyu/UI_NameCardPic_Ganyu_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "42",
@@ -392,10 +296,7 @@
           "name_ru": "Горо",
           "element": "Geo",
           "weapon": "Bow",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Gorou/UI_AvatarIcon_Gorou.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Gorou/UI_Gacha_AvatarImg_Gorou.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Gorou/UI_NameCardPic_Gorou_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "50",
@@ -404,10 +305,7 @@
           "name_ru": "Хэйдзо",
           "element": "Anemo",
           "weapon": "Catalyst",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Heizo/UI_AvatarIcon_Heizo.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Heizo/UI_Gacha_AvatarImg_Heizo.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Heizo/UI_NameCardPic_Heizo_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "29",
@@ -416,10 +314,7 @@
           "name_ru": "Ху Тао",
           "element": "Pyro",
           "weapon": "Polearm",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Hutao/UI_AvatarIcon_Hutao.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Hutao/UI_Gacha_AvatarImg_Hutao.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Hutao/UI_NameCardPic_Hutao_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "43",
@@ -428,10 +323,7 @@
           "name_ru": "Итто",
           "element": "Geo",
           "weapon": "Claymore",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Itto/UI_AvatarIcon_Itto.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Itto/UI_Gacha_AvatarImg_Itto.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Itto/UI_NameCardPic_Itto_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "85",
@@ -440,10 +332,7 @@
           "name_ru": "Качина",
           "element": "Geo",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kachina/UI_AvatarIcon_Kachina.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kachina/UI_Gacha_AvatarImg_Kachina.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kachina/UI_NameCardPic_Kachina_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "2",
@@ -452,10 +341,7 @@
           "name_ru": "Кэйа",
           "element": "Cryo",
           "weapon": "Sword",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kaeya/UI_AvatarIcon_Kaeya.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kaeya/UI_Gacha_AvatarImg_Kaeya.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kaeya/UI_NameCardPic_Kaeya_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "65",
@@ -464,10 +350,7 @@
           "name_ru": "Кавех",
           "element": "Dendro",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kaveh/UI_AvatarIcon_Kaveh.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kaveh/UI_Gacha_AvatarImg_Kaveh.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kaveh/UI_NameCardPic_Kaveh_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "33",
@@ -476,10 +359,7 @@
           "name_ru": "Кадзуха",
           "element": "Anemo",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kazuha/UI_AvatarIcon_Kazuha.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kazuha/UI_Gacha_AvatarImg_Kazuha.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kazuha/UI_NameCardPic_Kazuha_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "19",
@@ -488,10 +368,7 @@
           "name_ru": "Кэ Цин",
           "element": "Electro",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Keqing/UI_AvatarIcon_Keqing.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Keqing/UI_Gacha_AvatarImg_Keqing.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Keqing/UI_NameCardPic_Keqing_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "87",
@@ -500,10 +377,7 @@
           "name_ru": "Кинич",
           "element": "Dendro",
           "weapon": "Claymore",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kinich/UI_AvatarIcon_Kinich.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kinich/UI_Gacha_AvatarImg_Kinich.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kinich/UI_NameCardPic_Kinich_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "21",
@@ -512,10 +386,7 @@
           "name_ru": "Кли",
           "element": "Pyro",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Klee/UI_AvatarIcon_Klee.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Klee/UI_Gacha_AvatarImg_Klee.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Klee/UI_NameCardPic_Klee_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "40",
@@ -524,10 +395,7 @@
           "name_ru": "Кокоми",
           "element": "Hydro",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kokomi/UI_AvatarIcon_Kokomi.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kokomi/UI_Gacha_AvatarImg_Kokomi.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kokomi/UI_NameCardPic_Kokomi_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "58",
@@ -536,10 +404,7 @@
           "name_ru": "Лайла",
           "element": "Cryo",
           "weapon": "Sword",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Layla/UI_AvatarIcon_Layla.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Layla/UI_Gacha_AvatarImg_Layla.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Layla/UI_NameCardPic_Layla_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "68",
@@ -548,10 +413,7 @@
           "name_ru": "Линетт",
           "element": "Anemo",
           "weapon": "Sword",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Linette/UI_AvatarIcon_Linette.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Linette/UI_Gacha_AvatarImg_Linette.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Linette/UI_NameCardPic_Linette_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "69",
@@ -560,10 +422,7 @@
           "name_ru": "Лини",
           "element": "Pyro",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Liney/UI_AvatarIcon_Liney.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Liney/UI_Gacha_AvatarImg_Liney.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Liney/UI_NameCardPic_Liney_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "3",
@@ -572,10 +431,7 @@
           "name_ru": "Лиза",
           "element": "Electro",
           "weapon": "Catalyst",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Lisa/UI_AvatarIcon_Lisa.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Lisa/UI_Gacha_AvatarImg_Lisa.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Lisa/UI_NameCardPic_Lisa_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "78",
@@ -584,10 +440,7 @@
           "name_ru": "Сянь Юнь",
           "element": "Anemo",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Liuyun/UI_AvatarIcon_Liuyun.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Liuyun/UI_Gacha_AvatarImg_Liuyun.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Liuyun/UI_NameCardPic_Liuyun_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "64",
@@ -596,10 +449,7 @@
           "name_ru": "Мика",
           "element": "Cryo",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mika/UI_AvatarIcon_Mika.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mika/UI_Gacha_AvatarImg_Mika.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mika/UI_NameCardPic_Mika_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "67",
@@ -608,10 +458,7 @@
           "name_ru": "Кирара",
           "element": "Dendro",
           "weapon": "Sword",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Momoka/UI_AvatarIcon_Momoka.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Momoka/UI_Gacha_AvatarImg_Momoka.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Momoka/UI_NameCardPic_Kirara_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "18",
@@ -620,10 +467,7 @@
           "name_ru": "Мона",
           "element": "Hydro",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mona/UI_AvatarIcon_Mona.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mona/UI_Gacha_AvatarImg_Mona.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mona/UI_NameCardPic_Mona_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "86",
@@ -632,10 +476,7 @@
           "name_ru": "Муалани",
           "element": "Hydro",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mualani/UI_AvatarIcon_Mualani.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mualani/UI_Gacha_AvatarImg_Mualani.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Mualani/UI_NameCardPic_Mualani_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "57",
@@ -644,10 +485,7 @@
           "name_ru": "Нахида",
           "element": "Dendro",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Nahida/UI_AvatarIcon_Nahida.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Nahida/UI_Gacha_AvatarImg_Nahida.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Nahida/UI_NameCardPic_Nahida_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "75",
@@ -656,10 +494,7 @@
           "name_ru": "Навия",
           "element": "Geo",
           "weapon": "Claymore",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Navia/UI_AvatarIcon_Navia.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Navia/UI_Gacha_AvatarImg_Navia.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Navia/UI_NameCardPic_Navia_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "71",
@@ -668,10 +503,7 @@
           "name_ru": "Нёвиллет",
           "element": "Hydro",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Neuvillette/UI_AvatarIcon_Neuvillette.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Neuvillette/UI_Gacha_AvatarImg_Neuvillette.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Neuvillette/UI_NameCardPic_Neuvillette_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "56",
@@ -680,10 +512,7 @@
           "name_ru": "Нилу",
           "element": "Hydro",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Nilou/UI_AvatarIcon_Nilou.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Nilou/UI_Gacha_AvatarImg_Nilou.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Nilou/UI_NameCardPic_Nilou_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "9",
@@ -692,10 +521,7 @@
           "name_ru": "Нин Гуан",
           "element": "Geo",
           "weapon": "Catalyst",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ningguang/UI_AvatarIcon_Ningguang.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ningguang/UI_Gacha_AvatarImg_Ningguang.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Ningguang/UI_NameCardPic_Ningguang_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "12",
@@ -704,10 +530,7 @@
           "name_ru": "Ноэлль",
           "element": "Geo",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Noel/UI_AvatarIcon_Noel.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Noel/UI_Gacha_AvatarImg_Noel.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Noel/UI_NameCardPic_Noel_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "0",
@@ -716,10 +539,7 @@
           "name_ru": "Путешественник",
           "element": "All",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/PlayerBoy/UI_AvatarIcon_PlayerBoy.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/PlayerBoy/UI_Gacha_AvatarImg_PlayerBoy.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/PlayerBoy/UI_NameCardPic_PlayerBoy_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "-1",
@@ -728,10 +548,7 @@
           "name_ru": "Путешественница",
           "element": "All",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/PlayerGirl/UI_AvatarIcon_PlayerGirl.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/PlayerGirl/UI_Gacha_AvatarImg_PlayerGirl.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/PlayerGirl/UI_NameCardPic_PlayerGirl_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "15",
@@ -740,10 +557,7 @@
           "name_ru": "Джинн",
           "element": "Anemo",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Qin/UI_AvatarIcon_Qin.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Qin/UI_Gacha_AvatarImg_Qin.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Qin/UI_NameCardPic_Qin_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "17",
@@ -752,10 +566,7 @@
           "name_ru": "Ци Ци",
           "element": "Cryo",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Qiqi/UI_AvatarIcon_Qiqi.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Qiqi/UI_Gacha_AvatarImg_Qiqi.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Qiqi/UI_NameCardPic_Qiqi_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "5",
@@ -764,10 +575,7 @@
           "name_ru": "Рэйзор",
           "element": "Electro",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Razor/UI_AvatarIcon_Razor.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Razor/UI_Gacha_AvatarImg_Razor.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Razor/UI_NameCardPic_Razor_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "30",
@@ -776,10 +584,7 @@
           "name_ru": "Розария",
           "element": "Cryo",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Rosaria/UI_AvatarIcon_Rosaria.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Rosaria/UI_Gacha_AvatarImg_Rosaria.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Rosaria/UI_NameCardPic_Rosaria_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "38",
@@ -788,10 +593,7 @@
           "name_ru": "Сара",
           "element": "Electro",
           "weapon": "Sword",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sara/UI_AvatarIcon_Sara.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sara/UI_Gacha_AvatarImg_Sara.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sara/UI_NameCardPic_Sara_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "35",
@@ -800,10 +602,7 @@
           "name_ru": "Саю",
           "element": "Anemo",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sayu/UI_AvatarIcon_Sayu.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sayu/UI_Gacha_AvatarImg_Sayu.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sayu/UI_NameCardPic_Sayu_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "81",
@@ -812,10 +611,7 @@
           "name_ru": "Сетос",
           "element": "Electro",
           "weapon": "Bow",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sethos/UI_AvatarIcon_Sethos.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sethos/UI_Gacha_AvatarImg_Sethos.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sethos/UI_NameCardPic_Sethos_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "45",
@@ -824,10 +620,7 @@
           "name_ru": "Шэнь Хэ",
           "element": "Cryo",
           "weapon": "Polearm",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shenhe/UI_AvatarIcon_Shenhe.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shenhe/UI_Gacha_AvatarImg_Shenhe.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shenhe/UI_NameCardPic_Shenhe_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "49",
@@ -836,10 +629,7 @@
           "name_ru": "Синобу",
           "element": "Electro",
           "weapon": "Sword",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shinobu/UI_AvatarIcon_Shinobu.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shinobu/UI_Gacha_AvatarImg_Shinobu.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shinobu/UI_NameCardPic_Shinobu_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "39",
@@ -848,10 +638,7 @@
           "name_ru": "Райдэн",
           "element": "Electro",
           "weapon": "Polearm",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shougun/UI_AvatarIcon_Shougun.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shougun/UI_Gacha_AvatarImg_Shougun.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Shougun/UI_NameCardPic_Shougun_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "83",
@@ -860,10 +647,7 @@
           "name_ru": "Сиджвин",
           "element": "Hydro",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sigewinne/UI_AvatarIcon_Sigewinne.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sigewinne/UI_Gacha_AvatarImg_Sigewinne.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sigewinne/UI_NameCardPic_Sigewinne_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "14",
@@ -872,10 +656,7 @@
           "name_ru": "Сахароза",
           "element": "Anemo",
           "weapon": "Catalyst",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sucrose/UI_AvatarIcon_Sucrose.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sucrose/UI_Gacha_AvatarImg_Sucrose.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Sucrose/UI_NameCardPic_Sucrose_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "23",
@@ -884,10 +665,7 @@
           "name_ru": "Тарталья",
           "element": "Hydro",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tartaglia/UI_AvatarIcon_Tartaglia.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tartaglia/UI_Gacha_AvatarImg_Tartaglia.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tartaglia/UI_NameCardPic_Tartaglia_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "52",
@@ -896,10 +674,7 @@
           "name_ru": "Тигнари",
           "element": "Dendro",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tighnari/UI_AvatarIcon_Tighnari.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tighnari/UI_Gacha_AvatarImg_Tighnari.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tighnari/UI_NameCardPic_Tighnari_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "41",
@@ -908,10 +683,7 @@
           "name_ru": "Тома",
           "element": "Pyro",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tohma/UI_AvatarIcon_Tohma.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tohma/UI_Gacha_AvatarImg_Tohma.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Tohma/UI_NameCardPic_Tohma_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "20",
@@ -920,10 +692,7 @@
           "name_ru": "Венти",
           "element": "Anemo",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Venti/UI_AvatarIcon_Venti.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Venti/UI_Gacha_AvatarImg_Venti.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Venti/UI_NameCardPic_Venti_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "60",
@@ -932,10 +701,7 @@
           "name_ru": "Странник",
           "element": "Anemo",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Wanderer/UI_AvatarIcon_Wanderer.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Wanderer/UI_Gacha_AvatarImg_Wanderer.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Wanderer/UI_NameCardPic_Wanderer_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "72",
@@ -944,10 +710,7 @@
           "name_ru": "Ризли",
           "element": "Cryo",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Wriothesley/UI_AvatarIcon_Wriothesley.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Wriothesley/UI_Gacha_AvatarImg_Wriothesley.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Wriothesley/UI_NameCardPic_Wriothesley_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "6",
@@ -956,10 +719,7 @@
           "name_ru": "Сян Лин",
           "element": "Pyro",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xiangling/UI_AvatarIcon_Xiangling.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xiangling/UI_Gacha_AvatarImg_Xiangling.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xiangling/UI_NameCardPic_Xiangling_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "28",
@@ -968,10 +728,7 @@
           "name_ru": "Сяо",
           "element": "Anemo",
           "weapon": "Polearm",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xiao/UI_AvatarIcon_Xiao.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xiao/UI_Gacha_AvatarImg_Xiao.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xiao/UI_NameCardPic_Xiao_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "8",
@@ -980,10 +737,7 @@
           "name_ru": "Син Цю",
           "element": "Hydro",
           "weapon": "Sword",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xingqiu/UI_AvatarIcon_Xingqiu.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xingqiu/UI_Gacha_AvatarImg_Xingqiu.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xingqiu/UI_NameCardPic_Xingqiu_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "24",
@@ -992,10 +746,7 @@
           "name_ru": "Синь Янь",
           "element": "Pyro",
           "weapon": "Claymore",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xinyan/UI_AvatarIcon_Xinyan.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xinyan/UI_Gacha_AvatarImg_Xinyan.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Xinyan/UI_NameCardPic_Xinyan_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "46",
@@ -1004,10 +755,7 @@
           "name_ru": "Яэ Мико",
           "element": "Electro",
           "weapon": "Catalyst",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yae/UI_AvatarIcon_Yae.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yae/UI_Gacha_AvatarImg_Yae.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yae/UI_NameCardPic_Yae1_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "61",
@@ -1016,10 +764,7 @@
           "name_ru": "Яо Яо",
           "element": "Dendro",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yaoyao/UI_AvatarIcon_Yaoyao.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yaoyao/UI_Gacha_AvatarImg_Yaoyao.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yaoyao/UI_NameCardPic_Yaoyao_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "48",
@@ -1028,10 +773,7 @@
           "name_ru": "Е Лань",
           "element": "Hydro",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yelan/UI_AvatarIcon_Yelan.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yelan/UI_Gacha_AvatarImg_Yelan.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yelan/UI_NameCardPic_Yelan_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "36",
@@ -1040,10 +782,7 @@
           "name_ru": "Ёимия",
           "element": "Pyro",
           "weapon": "Bow",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yoimiya/UI_AvatarIcon_Yoimiya.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yoimiya/UI_Gacha_AvatarImg_Yoimiya.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yoimiya/UI_NameCardPic_Yoimiya_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "44",
@@ -1052,10 +791,7 @@
           "name_ru": "Юнь Цзинь",
           "element": "Geo",
           "weapon": "Polearm",
-          "rarity": "4",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yunjin/UI_AvatarIcon_Yunjin.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yunjin/UI_Gacha_AvatarImg_Yunjin.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Yunjin/UI_NameCardPic_Yunjin_P_min.jpeg"
+          "rarity": "4"
         },
         {
           "id": "25",
@@ -1064,10 +800,7 @@
           "name_ru": "Чжун Ли",
           "element": "Geo",
           "weapon": "Polearm",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Zhongli/UI_AvatarIcon_Zhongli.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Zhongli/UI_Gacha_AvatarImg_Zhongli.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Zhongli/UI_NameCardPic_Zhongli_P_min.jpeg"
+          "rarity": "5"
         },
         {
           "id": "88",
@@ -1076,10 +809,7 @@
           "name_ru": "Шилонен",
           "element": "Geo",
           "weapon": "Sword",
-          "rarity": "5",
-          "icon": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kinich/UI_AvatarIcon_Kinich.png",
-          "gacha_img": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kinich/UI_Gacha_AvatarImg_Kinich.webp",
-          "namecard": "https://raw.githubusercontent.com/Paddfoot/Awarin/main/data/characters/Kinich/UI_NameCardPic_Kinich_P_min.jpeg"
+          "rarity": "5"
         }
       ]
     }
