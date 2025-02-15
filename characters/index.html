@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWARiN</title>
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../res/style.css">
+    <script defer src="../res/title-bar.js"></script>
+    <script type="module" defer src="../characters/scripts.js"></script>
+</head>
+<body>
+    <div class="overlay" id="overlay"></div>
+    <div class="titlebar">
+        <div class="logo"><b>AWARiN</b></div>
+        <div class="menu-button" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <div class="menu" id="menu">
+        <div class="menu-list">
+            <a class="menu-item" href="../">Главная страница</a>
+            <a class="menu-item" href="">Оружия</a>
+            <a class="menu-item" href="">Артефакты</a>
+            <a class="menu-item" href="">Ивенты</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="filters">
+            <select id="sort-element" class="sort-element">
+                <option value="">Элемент</option>
+                <option value="Pyro">Пиро</option>
+                <option value="Hydro">Гидро</option>
+                <option value="Anemo">Анемо</option>
+                <option value="Electro">Электро</option>
+                <option value="Dendro">Дендро</option>
+                <option value="Cryo">Крио</option>
+                <option value="Geo">Гео</option>
+            </select>
+            <select id="sort-weapon" class="sort-weapon">
+                <option value="">Оружие</option>
+                <option value="Sword">Меч</option>
+                <option value="Bow">Лук</option>
+                <option value="Claymore">Двуручный меч</option>
+                <option value="Polearm">Копье</option>
+                <option value="Catalyst">Катализатор</option>
+            </select>
+            <select id="sort-rarity" class="sort-rarity">
+                <option value="">Редкость</option>
+                <option value="5">5★</option>
+                <option value="4">4★</option>
+            </select>
+            <select id="sort-region" class="sort-region">
+                <option value="">Регион</option>
+                <option value="Mondstadt">Мондштат</option>
+                <option value="Liyue">Ли Юэ</option>
+                <option value="Inazuma">Инадзума</option>
+                <option value="Sumeru">Сумеру</option>
+                <option value="Fontaine">Фонтейн</option>
+                <option value="Natlan">Натлан</option>
+                <option value="Snezhnaya">Снежная</option>
+            </select>
+            <input type="text" id="search" class="search" placeholder="Поиск по имени...">
+        </div>
+        <div id="characters-list" class="characters-grid"></div>
+    </div>
+</body>
+</html>

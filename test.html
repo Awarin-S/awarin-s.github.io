@@ -1,0 +1,66 @@
+<div class="custom-select">
+    <div class="select-box">Choose fruit</div>
+    <ul class="options-list">
+        <li class="option" data-value="apple">Apple</li>
+        <li class="option" data-value="banana">Banana</li>
+        <li class="option" data-value="orange">Orange</li>
+    </ul>
+</div>
+
+<script>
+    const selectBox = document.querySelector('.select-box');
+    const optionsList = document.querySelector('.options-list');
+    const options = document.querySelectorAll('.option');
+
+    selectBox.addEventListener('click', () => {
+        optionsList.classList.toggle('visible');
+    });
+
+    options.forEach(option => {
+        option.addEventListener('click', () => {
+            selectBox.textContent = option.textContent;
+            optionsList.classList.remove('visible');
+        });
+    });
+</script>
+
+<style>
+    .custom-select {
+        position: relative;
+        width: 200px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #f5f5f5;
+    }
+
+    .select-box {
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .options-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        border: 1px solid #ccc;
+        background-color: white;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+
+    .options-list.visible {
+        display: block;
+    }
+
+    .option {
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .option:hover {
+        background-color: #e0e0e0;
+    }
+</style>

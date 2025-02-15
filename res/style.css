@@ -31,11 +31,21 @@ a, span, th, td {
     padding: 0;
 }
 
+body.no-scroll {
+    overflow: hidden;
+}
+
 :root {
+    --white: #fff;
+    --black: #000;
     --font-color-1: #c1c1c1;
     --color-1: #313131;
-    --color-2: #1a1a1a;
+    --color-2: #1a1a1ab0;
     --color-3: #373737;
+    --color-4: #FFD700;
+    --color-5: #848484;
+    --color-tr-1: #313131b2;
+    --blr: 1000px;
 }  
 
 /*--------------------------------------------------------------------------------------------------------------------*/
@@ -54,6 +64,8 @@ html {
     height: 50px;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--color-3);
+    backdrop-filter: blur(var(--blr));
     z-index: 11;
 }
 
@@ -103,13 +115,14 @@ html {
 
 .menu {
     position: fixed;
+    top: 50px;
     width: 100%;
     background: var(--color-2);
     padding: 10px;
-    padding-top: 0 !important;
     border-bottom: 1px solid var(--color-3);
     z-index: 10;
     opacity: 0;
+    backdrop-filter: blur(var(--blr));
     transform: translateY(-1000px);
     transition: opacity 0.3s, transform 0.3s;
 }
@@ -126,12 +139,142 @@ html {
 }
 
 .menu-item {
+    display: flex;
     padding: 8px;
     text-decoration: none;
+    align-self: center;
+    flex-flow: column;
 }
 
 .menu-item:hover {
     background: var(--color-3);
+}
+
+.filters {
+    padding: 20px;
+    margin: 20px;
+    background: var(--color-2);
+    border-radius: 8px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.filters select {
+    padding: 5px;
+    background: var(--font-color-1);
+    border: none;
+    border-radius: 4px;
+    font-family: 'Ubuntu';
+}
+
+.filters select:focus {
+    padding: 5px;
+    background: var(--white);
+    border: none;
+    border-radius: 4px;
+}
+
+.search {
+    width: 100%;
+    grid-column: 1 / -1;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px 0;
+    text-indent: 5px;
+    font-family: 'Ubuntu';
+    background: var(--font-color-1);
+}
+
+.search:focus {
+    background: var(--white);
+    outline: none;
+}
+
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0fr));
+    gap: 15px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.character-card {
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: var(--font-color-1);
+    background-color: var(--color-2);
+    user-select: none;
+    -webkit-user-select: none; /* Для Safari */
+    -moz-user-select: none; /* Для Firefox */
+    -ms-user-select: none; /* Для старых версий IE */
+}
+
+.namecard {
+    display: grid;
+    width: 250px;
+    height: 120px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    border-radius: 5px 5px 0 0;
+    gap: 5px;
+    grid-template-columns: 3fr 1fr; /* Две колонки */
+    grid-template-rows: auto auto; /* Две строки */
+    grid-template-areas: 
+        "left right1"
+        "left right2";
+}
+
+.character-icon {
+    height: 120px;
+    grid-area: left;
+}
+
+.character-element {
+    width: 50px;
+    grid-area: right1;
+    margin-top: 5px;
+}
+
+.character-weapon {
+    width: 50px;
+    grid-area: right2;
+}
+
+.character-element, .character-weapon {
+    background: var(--color-tr-1);
+    border-radius: 6px;
+}
+
+.bottom-namecard {
+    width: 250px;
+    line-height: 25px;
+    display: grid;
+    text-align: center;
+    padding: 1px;
+}
+
+.character-name {
+    font-size: 23px;
+}
+
+.character-rarity {
+    font-size: 25px;
+    color: var(--color-4);
+}
+
+/* Стили для контейнера с видео */
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
@@ -189,4 +332,31 @@ html {
     src: url(fonts/genshin-impact.woff2) format("woff2"),
       url(fonts/genshin-impact.woff) format("woff"),
       url(fonts/genshin-impact.ttf) format("truetype");
+}
+
+/* Для WebKit браузеров */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 3px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+/* Для Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
 }
