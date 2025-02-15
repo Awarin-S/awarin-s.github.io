@@ -60,7 +60,7 @@ html {
     display: flex;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     justify-content: space-between;
     align-items: center;
@@ -157,7 +157,8 @@ html {
     border-radius: 8px;
     display: grid;
     gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-columns: repeat(4, 1fr);*/
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .filters select {
@@ -272,7 +273,6 @@ video {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     object-fit: cover;
     z-index: -1;
 }
