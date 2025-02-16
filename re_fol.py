@@ -17,10 +17,10 @@ for name in data['characters']['en']:  # Предполагаем, что все
 
     # Создаем папку с именем персонажа
     folder_name = name
-    os.makedirs(f"character/{folder_name}", exist_ok=True)
+    os.makedirs(f"characters/{folder_name}", exist_ok=True)
 
     # Сохраняем данные персонажа в один JSON файл
-    file_path = os.path.join(f"character/{folder_name}", f"{name}.json")
+    file_path = os.path.join(f"characters/{folder_name}", f"{name}.json")
     with open(file_path, 'w', encoding='utf-8') as char_file:
         json.dump(new_data, char_file, ensure_ascii=False, indent=4)
 
