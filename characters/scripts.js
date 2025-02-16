@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Функция для создания карточки персонажа
     const createCharacterCard = character => `
-        <a class="character-card" href="../character?name=${encodeURIComponent(character.name)}">
+        <a class="character-card" href="../character/?name=${encodeURIComponent(character.name)}">
             <div class="namecard" style="background-image: url(../characters/${encodeURIComponent(character.name)}/${encodeURIComponent(character.name)}_namecard.webp);">
                 <img class="character-icon" src="../characters/${encodeURIComponent(character.name)}/${encodeURIComponent(character.name)}_icon.webp">
                 <img class="character-element" src="../res/elements/${encodeURIComponent(character.element).toLowerCase()}.png">
