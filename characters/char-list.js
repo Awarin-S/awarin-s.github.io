@@ -853,5 +853,14 @@ export const charactersList = [
         "weapon": "Claymore",
         "element": "Geo",
         "region": "Fontaine"
+    },
+    {
+        "name": "Yumemizuki Mizuki",
+        "name_ru": "Мидзуки",
+        "id": 10000109,
+        "rarity": 5,
+        "weapon": "Catalyst",
+        "element": "Anemo",
+        "region": "Inazuma"
     }
 ]

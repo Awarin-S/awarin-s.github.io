@@ -88,7 +88,8 @@ name_replacements = {
     "Thoma": "Tohma",
     "Xianyun": "Liuyun",
     "Yanfei": "Feiyan",
-    "Yun Jin": "Yunjin"
+    "Yun Jin": "Yunjin",
+    "Yumemizuki Mizuki": "Mizuki"
 }
 
 namecard_replacements = {
@@ -118,7 +119,8 @@ namecard_replacements = {
     "Thoma": "Tohma",
     "Xianyun": "Liuyun",
     "Yanfei": "Feiyan",
-    "Yun Jin": "Yunjin"
+    "Yun Jin": "Yunjin",
+    "Yumemizuki Mizuki": "Mizuki"
 }
 
 def compress_image(input_path, output_path, quality=85):
@@ -544,8 +546,8 @@ def const(char_pop, charN):
         c += 1
     return constt
 
-i = 0
-while(i < len(char_list_api_en['categories']['outfits']['characterName'])):
+i = 22
+while(i < 23): #len(char_list_api_en['categories']['outfits']['characterName'])
     down(char_list_api_en, i, 'https://enka.network/ui/UI_AvatarIcon_')
     down(char_list_api_en, i, 'https://enka.network/ui/UI_NameCardPic_')
     down(char_list_api_en, i, 'https://enka.network/ui/UI_Gacha_AvatarImg_')
