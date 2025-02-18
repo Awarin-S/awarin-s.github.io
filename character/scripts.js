@@ -14,10 +14,20 @@ function getElementInfo(element) {
     return elements[element] || { color: "#FFFFFF", name: "Неизвестный элемент" };
 }
 
+let elementsColors = {
+    "Пиро": "#FF4500",
+    "Гидро": "#00BFFF",
+    "Анемо": "#3CB371",
+    "Электро": "#8A2BE2",
+    "Дендро": "#228B22",
+    "Крио": "#ADD8E6",
+    "Гео": "#DAA520"
+};
+
 function getWeaponType(weapon) {
     const weapons = {
-        Sword: "одноручный мечник",
-        Claymore: "двуручный мечник",
+        Sword: "мечник",
+        Claymore: "двуручник",
         Polearm: "копейщик",
         Bow: "лучник",
         Catalyst: "катализатор"
@@ -26,10 +36,9 @@ function getWeaponType(weapon) {
     return weapons[weapon] || "Неизвестное оружие";
 }
 
-const weaponTypes = {
-    'одноручный мечник': 'Одноручный',
-    'двуручный мечник': 'Двуручный'
-};
+function getSub(text) {
+    console.log(text)
+}
 
 function formatDate(value) {
     const months = {
@@ -75,25 +84,27 @@ async function loadJSON(url) {
         char_prof_detail = document.querySelector('.character-prof-detail');
         char_prof_detail.textContent = `${charData.ru.more.detail}`;
         
-        if (weaponTypes[getWeaponType(charData.ru.weapon)]) {
-            char_prof_element = document.querySelector('.element');
-            char_prof_element.textContent = `${(charElement.element).toLowerCase()}`;
-            char_prof_element.style.color = `${charElement.color}`;
+        char_prof_element = document.querySelector('.element');
+        char_prof_element.textContent = `${charElement.element}`;
+        char_prof_element.style.color = `${charElement.color}`;
 
-            document.styleSheets[0].insertRule(`.element::before { display: block; margin-right: 4px; content: "${weaponTypes[getWeaponType(charData.ru.weapon)]}"; color: var(--font-color-1); }`, 0);
-            char_prof_weapon = document.querySelector('.weapon');
-            char_prof_weapon.textContent = `${getWeaponType(charData.ru.weapon).split(' ')[1]}`;
-        }else{
-            char_prof_element = document.querySelector('.element');
-            char_prof_element.textContent = `${charElement.element}`;
-            char_prof_element.style.color = `${charElement.color}`;
+        char_prof_weapon = document.querySelector('.weapon');
+        char_prof_weapon.textContent = `${getWeaponType(charData.ru.weapon)}`;
 
-
-            char_prof_weapon = document.querySelector('.weapon');
-            char_prof_weapon.textContent = `${getWeaponType(charData.ru.weapon)}`;
-        }
         char_prof_sub = document.querySelector('.level');
-        char_prof_sub.textContent = `${(charData.ru.elevation.sub).replace(/[%\s]+$/, "")}`;
+        //char_prof_sub.textContent = `${(charData.ru.elevation.sub).replace(/[%\s]+$/, "")}`;
+
+        let element = (charData.ru.elevation.sub).replace(/[%\s]+$/, "");
+
+        // Определяем, какая стихия в тексте
+        let matchedElement = Object.keys(elementsColors).find(el => element.includes(el));
+
+        if (matchedElement) {
+            let coloredElement = `<span style="color: ${elementsColors[matchedElement]};">${matchedElement}</span>`;
+            element = element.replace(matchedElement, coloredElement);
+        }
+
+        char_prof_sub.innerHTML = element;
 
         char_prof_birthday = document.querySelector('.birthday');
         char_prof_birthday.textContent = `${formatDate(charData.ru.more.birthday)}`;
@@ -109,6 +120,11 @@ async function loadJSON(url) {
 
         char_gacha = document.querySelector('.gacha');
         char_gacha.src = `../characters/${char_name}/${char_name}_gacha.webp`;
+
+        document.querySelector('.chs').textContent = charData.ru.more.cv.chs;
+        document.querySelector('.en').textContent = charData.ru.more.cv.en;
+        document.querySelector('.jp').textContent = charData.ru.more.cv.jp;
+        document.querySelector('.kr').textContent = charData.ru.more.cv.kr;
 
     } catch (error) {
         console.error('Ошибка загрузки JSON:', error);

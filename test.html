@@ -1,66 +1,68 @@
-<div class="custom-select">
-    <div class="select-box">Choose fruit</div>
-    <ul class="options-list">
-        <li class="option" data-value="apple">Apple</li>
-        <li class="option" data-value="banana">Banana</li>
-        <li class="option" data-value="orange">Orange</li>
-    </ul>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загрузка страницы</title>
+    <style>
+        /* Стили для экрана загрузки */
+        #loadingScreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
 
-<script>
-    const selectBox = document.querySelector('.select-box');
-    const optionsList = document.querySelector('.options-list');
-    const options = document.querySelectorAll('.option');
+        /* Простой индикатор загрузки */
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
 
-    selectBox.addEventListener('click', () => {
-        optionsList.classList.toggle('visible');
-    });
+        /* Анимация вращения */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
 
-    options.forEach(option => {
-        option.addEventListener('click', () => {
-            selectBox.textContent = option.textContent;
-            optionsList.classList.remove('visible');
-        });
-    });
-</script>
+        /* Стили для основного контента */
+        #mainContent {
+            display: none; /* Скрыт до загрузки */
+        }
+    </style>
+</head>
+<body>
 
-<style>
-    .custom-select {
-        position: relative;
-        width: 200px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: 16px;
-        background-color: #f5f5f5;
-    }
+    <!-- Экран загрузки -->
+    <div id="loadingScreen">
+        <div class="spinner"></div>
+    </div>
 
-    .select-box {
-        padding: 10px;
-        cursor: pointer;
-    }
+    <!-- Основной контент -->
+    <div id="mainContent">
+        <h1>Добро пожаловать на сайт!</h1>
+        <p>Этот контент доступен только после полной загрузки страницы.</p>
+    </div>
 
-    .options-list {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        border: 1px solid #ccc;
-        background-color: white;
-        max-height: 200px;
-        overflow-y: auto;
-    }
+    <script>
+        // Скрыть экран загрузки и показать контент после полной загрузки страницы
+        window.onload = function() {
+            // Скрыть экран загрузки
+            document.getElementById('loadingScreen').style.display = 'none';
+            // Показать основной контент
+            document.getElementById('mainContent').style.display = 'block';
+        };
+    </script>
 
-    .options-list.visible {
-        display: block;
-    }
-
-    .option {
-        padding: 10px;
-        cursor: pointer;
-    }
-
-    .option:hover {
-        background-color: #e0e0e0;
-    }
-</style>
+</body>
+</html>
