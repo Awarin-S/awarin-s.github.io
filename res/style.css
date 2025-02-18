@@ -45,6 +45,8 @@ body.no-scroll {
     --color-4: #FFD700;
     --color-5: #848484;
     --color-tr-1: #313131b2;
+    --color-tr-2: #00000075;
+    --color-tr-3: #000000b2;
     --blr: 1000px;
 }  
 
@@ -60,7 +62,7 @@ html {
     display: flex;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: 50px;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +120,6 @@ html {
     top: 50px;
     width: 100%;
     background: var(--color-2);
-    padding: 10px;
     border-bottom: 1px solid var(--color-3);
     z-index: 10;
     opacity: 0;
@@ -144,6 +145,7 @@ html {
     text-decoration: none;
     align-self: center;
     flex-flow: column;
+    margin: 10px 10px;
 }
 
 .menu-item:hover {
@@ -275,6 +277,115 @@ video {
     left: 0;
     object-fit: cover;
     z-index: -1;
+    pointer-events: none;
+}
+
+.l-page-top {
+    display: grid;
+    height: 512px;
+    grid-template-columns: 1fr 1fr; /* Две колонки */
+    grid-template-rows: 190px auto;  /* Две строки */
+    overflow: hidden;
+}
+
+.conticm {
+    grid-column: 1; /* Первый элемент в первой колонке */
+    grid-row: 1; /* Первая строка */
+    display: flex;
+    padding-top: 25px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.contm {
+    grid-column: 1; /* Второй элемент в первой колонке */
+    grid-row: 2; /* Вторая строка */
+    width: 35vw;
+    text-align: justify;
+    padding: 0 15px;
+    text-shadow: 
+                1px 1px 1px rgba(0, 0, 0, 1),
+                -1px -1px 1px rgba(0, 0, 0, 1),
+                1px -1px 1px rgba(0, 0, 0, 1),
+                -1px 1px 1px rgba(0, 0, 0, 1)
+}
+
+.contlft {
+    grid-column: 2; /* Третий элемент во второй колонке */
+    grid-row: 1 / 3; /* Растягивается на две строки */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+}
+
+.gacha {
+    width: 1024px;
+    height: 512px;
+    position: fixed;
+}
+
+.contic {
+    position: relative;
+    display: inline-block;
+    height: 128px;
+}
+
+.character-prof-element {
+    position: absolute; 
+    top: 0;
+    left: calc(50% - 64px);
+    width: 35px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: var(--color-tr-2);
+    z-index: 1;
+}
+
+.character-prof-icon {
+    width: 128px;
+    height: 128px;
+    border-radius: 15px;
+}
+
+.character-prof-name {
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 
+                1px 1px 1px rgba(0, 0, 0, 1),
+                -1px -1px 1px rgba(0, 0, 0, 1),
+                1px -1px 1px rgba(0, 0, 0, 1),
+                -1px 1px 1px rgba(0, 0, 0, 1)
+}
+
+.contmm {
+    margin-top: 15px;
+}
+
+.l-page {
+    background: var(--color-tr-3);
+}
+
+.ryujft {
+    width: fit-content;
+    display: ruby;
+}
+
+.contTag:first-child {
+    display: inline-flex;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.ryujft, .contTag .level {
+    background: var(--color-tr-2);
+    padding: 3px 7px;
+    border-radius: 4px;
+    margin-right: 10px;
+    backdrop-filter: blur(4px);
+    padding: 5px 8px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
@@ -334,29 +445,51 @@ video {
       url(fonts/genshin-impact.ttf) format("truetype");
 }
 
-/* Для WebKit браузеров */
-::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-}
+@media (max-width: 480px) { /* Смартфоны */ }
+@media (max-width: 768px) { /* Планшеты в портретном режиме */ 
+    .menu-list {
+        grid-template-columns: none;
+    }
 
-::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
-    border-radius: 10px;
-}
+    .menu-item {
+        margin: 5px;
+    }
 
-::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 10px;
-    border: 3px solid #f1f1f1;
-}
+    .l-page-top {
+        display: inherit;
+        height: 400px;
+        position: relative;
+        background: var(--color-tr-2);
+    }
 
-::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-}
+    .conticm {
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
 
-/* Для Firefox */
-html {
-    scrollbar-width: thin;
-    scrollbar-color: #888 #f1f1f1;
+    .contm {
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .contlft {
+        display: inherit;
+        width: 100%;
+    }
+
+    .gacha {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        top: 50px;
+        z-index: -1;
+    }
+
+    .l-page {
+        margin: 0;
+    }
+      
 }
+@media (max-width: 1024px) { /* Планшеты в альбомном режиме, небольшие ноутбуки */ }
+@media (min-width: 1025px) { /* Десктопы */ }
